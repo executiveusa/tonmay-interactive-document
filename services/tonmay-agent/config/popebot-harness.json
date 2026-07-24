@@ -1,0 +1,11 @@
+{
+  "name": "PopeBot TonMay Agent Subservice",
+  "isolated_worktree": "services/tonmay-agent",
+  "skills": [
+    "client_management",
+    "shot_list_planning",
+    "reminder_management",
+    "website_update_drafting"
+  ],
+  "runtime": "node_background_worker"
+}

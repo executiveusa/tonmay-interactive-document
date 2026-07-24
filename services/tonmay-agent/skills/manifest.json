@@ -1,0 +1,9 @@
+{
+  "protocol": "A2A-1.0",
+  "agent_id": "tonmay-studio-agent",
+  "manifest": [
+    { "name": "production_briefing", "version": "1.0.0" },
+    { "name": "media_organization", "version": "1.0.0" },
+    { "name": "payment_tracking", "version": "1.0.0" }
+  ]
+}

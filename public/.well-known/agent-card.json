@@ -1,0 +1,52 @@
+{
+  "name": "TonMay Studio Agent",
+  "description": "Domain-specific AI studio assistant for TonMay Productions managing client workbooks, session briefings, shot lists, reminders, and media workflows.",
+  "version": "1.0",
+  "protocol": "A2A-1.0",
+  "url": "https://tonmay-interactive-document.vercel.app/.well-known/agent-card.json",
+  "skills": [
+    {
+      "id": "client_management",
+      "name": "Client & Project Workspace Management"
+    },
+    {
+      "id": "booking_management",
+      "name": "Session Booking & Scheduling"
+    },
+    {
+      "id": "production_briefing",
+      "name": "Creative & Production Briefing"
+    },
+    {
+      "id": "shot_list_planning",
+      "name": "Shot List & Interview Guide Generation"
+    },
+    {
+      "id": "client_communications",
+      "name": "Client Response & Update Drafting"
+    },
+    {
+      "id": "reminder_management",
+      "name": "48h/24h/Same-day Reminder Engine"
+    },
+    {
+      "id": "media_organization",
+      "name": "Footage Directory & Proxy Planning"
+    },
+    {
+      "id": "payment_tracking",
+      "name": "Deposit & Balance Tracking"
+    },
+    {
+      "id": "website_update_drafting",
+      "name": "Portfolio & Case Study Draft Generation"
+    },
+    {
+      "id": "scoped_memory_retrieval",
+      "name": "Scoped Context Memory Retrieval"
+    }
+  ],
+  "authentication": {
+    "type": "bearer_token"
+  }
+}

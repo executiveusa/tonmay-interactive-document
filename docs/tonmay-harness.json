@@ -1,0 +1,28 @@
+{
+  "harness_id": "TONMAY-STUDIO-HARNESS-v1",
+  "domain": "TonMay Productions Media Studio",
+  "operator": "Anton",
+  "vocabulary": [
+    "Client", "Shoot", "Call Time", "Shot List", "Camera A/B",
+    "Audio", "Drone", "Selects", "Edit", "Review", "Delivery", "Archive"
+  ],
+  "allowed_actions": [
+    "generate_shot_list_suggestions",
+    "generate_interview_questions",
+    "generate_footage_folder_plan",
+    "draft_client_message_responses",
+    "draft_website_portfolio_updates",
+    "retrieve_project_scoped_memory"
+  ],
+  "approval_required_actions": [
+    "create_website_pull_request",
+    "send_client_reminder",
+    "record_manual_payment"
+  ],
+  "forbidden_actions": [
+    "delete_raw_camera_originals",
+    "activate_live_stripe_payments",
+    "auto_publish_production_website",
+    "cross_client_memory_retrieval"
+  ]
+}
